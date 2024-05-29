@@ -1,0 +1,7 @@
+
+<form action="" method="POST">
+    {% csrf_token %}
+    {{from.as_p}}
+    <input type="submit" value="Login">
+    <a href="{% url 'regestion' %}"> Regestion</a>
+</form>
